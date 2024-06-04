@@ -1,0 +1,51 @@
+@media (max-width:576px){
+    .header{
+        position:absolute ; 
+        left:0 ;
+        top :0 ;  
+        background-color:rgb(4614,12325,342353);
+        width:100% ;
+        padding:10px 17px ;
+        display:flex ; 
+        justify-content:space-between;
+        z-index:100
+
+    }
+    .navbar{
+        position:absolute ; 
+        width:100% ; 
+        top:100% ;
+        left:0 ;
+        background-color:white ; 
+        height:0 ;
+        transition: .3s ease; 
+        
+
+        overflow:hidden ;
+    
+
+    }
+    .navbar a{
+        display:block ; 
+        text-align:center; 
+        margin-top:20px; 
+        
+        
+    }
+       
+    #check:checked~.icons #menu{
+        display:none ;
+    }
+    #check:checked~.icons #close{
+        display:block;
+    }
+    #check:checked~.navbar{
+        height:18rem ;
+    }
+
+} 
+
+
+.active{
+color:rgb(177,229,177);
+}
