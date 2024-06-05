@@ -28,7 +28,7 @@ const Navbar = () => {
   return (
     <div className={`${scroll ? 'header flex md:justify-between lg:px-[100px]  md:py-5 md:bg-white md:px-[60px]  fixed w-full md:shadow-md' : 'header flex md:justify-between md:px-[60px] lg:px-[120px]  md:py-5 md: md:shadow-md md:text-white font-semibold'}`}>
           
-          <a href="" className='logo'><div className='w-15 h-5 md:w-40 md:h-10'><img src="../bl.png" alt="logo image" className='w-full h-full object-cover'/></div></a>
+          <a href="" className='logo'><img src="../bl.png" alt="logo image" className='w-15 h-5 md:w-20 md:h-12'/></a>
           <input type="checkbox" id="check"className='hidden'/>
             <label htmlFor="check" className='lg:hidden absolute right-[12px] mt-[2px]  icons'>
                 <BiMenu id="menu" className='text-[18px] text-black'/>
