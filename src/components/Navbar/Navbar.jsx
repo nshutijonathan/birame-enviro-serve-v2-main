@@ -30,18 +30,18 @@ const Navbar = () => {
           
           <a href="" className='logo'><div className='w-15 h-5 md:w-40 md:h-10'><img src="../bl.png" alt="logo image" className='w-full h-full object-cover'/></div></a>
           <input type="checkbox" id="check"className='hidden'/>
-            <label htmlFor="check" className='md:hidden absolute right-[12px] mt-[2px]  icons'>
+            <label htmlFor="check" className='lg:hidden absolute right-[12px] mt-[2px]  icons'>
                 <BiMenu id="menu" className='text-[18px] text-black'/>
                 <CgClose id="close" className='hidden text-[18px] text-black'/>
             </label>
-          <nav className='navbar md:flex md:gap-4 md:mt-2'>
+          <nav className='navbar lg:flex  lg:mt-2 md:gap-[2rem]'>
             
-            <Link to="about"smooth={true} duration={2000}><a className='font-semibold text-md  md:cursor-pointer '><NavLink  to="/about"className="cursor-pointer" activeClassName="about">ABOUT US</NavLink></a></Link>
-             <Link to='what'smooth={true} duration={2000}><a className='font-semibold text-md  md:cursor-pointer '> <NavLink to="/whatWeDo"className="cursor-pointer"> WHAT WE DO</NavLink></a></Link>
-            <Link to="projects"smooth={true} duration={2000} ><a className='font-semibold text-md  md:cursor-pointer '> <NavLink to="/projects"className="cursor-pointer">PROJECTS</NavLink></a></Link>
-            <Link to="team"smooth={true} duration={2000}><a className='font-semibold text-md  md:cursor-pointer '> <NavLink to="/team"className="cursor-pointer">TEAM</NavLink> </a></Link>
-            <Link to="resources" smooth={true} duration={2000}><a className='font-semibold text-md  md:cursor-pointer '> <NavLink to="/resources"className="cursor-pointer">RESOURCES</NavLink></a></Link>
-            <a className='font-semibold text-md  md:cursor-pointer'> <NavLink to="/donate"className="cursor-pointer ">DONATE</NavLink></a>
+            <Link to="about"smooth={true} duration={2000}><a className='font-semibold text-md  md:cursor-pointer '><NavLink  to="/about"className="cursor-pointer md:text-[1.3rem]" activeClassName="about">ABOUT US</NavLink></a></Link>
+             <Link to='what'smooth={true} duration={2000}><a className='font-semibold text-md  md:cursor-pointer '> <NavLink to="/whatWeDo"className="cursor-pointer md:text-[1.3rem]"> WHAT WE DO</NavLink></a></Link>
+            <Link to="projects"smooth={true} duration={2000} ><a className='font-semibold text-md  md:cursor-pointer '> <NavLink to="/projects"className="cursor-pointer md:text-[1.3rem]">PROJECTS</NavLink></a></Link>
+            <Link to="team"smooth={true} duration={2000}><a className='font-semibold text-md  md:cursor-pointer '> <NavLink to="/team"className="cursor-pointer md:text-[1.3rem]">TEAM</NavLink> </a></Link>
+            <Link to="resources" smooth={true} duration={2000}><a className='font-semibold text-md  md:cursor-pointer '> <NavLink to="/resources"className="cursor-pointer md:text-[1.3rem]">RESOURCES</NavLink></a></Link>
+            <a className='font-semibold text-md  md:cursor-pointer'> <NavLink to="/donate"className="cursor-pointer md:text-[1.3rem]">DONATE</NavLink></a>
           </nav>
     </div>
   )

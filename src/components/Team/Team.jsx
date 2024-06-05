@@ -20,7 +20,7 @@ const Team = () => {
 
   return (
     <div className="flex flex-col justify-center w-full  md:mt-[160px]" id="team"> 
-     <h1 className='font-sora text-gray-600 font-semibold md:text-[30px] text-center my-12'>TEAM</h1>
+     <h1 className='font-sora text-gray-600 font-semibold text-[1.5rem] text-center my-12'>TEAM</h1>
       <div className=":w-full relative  ">
         <div className=" w-full  md:px-[100px] lg:px-[90px] flex justify-center mt-6">
           <div className="grid  md:grid-cols-2  my-4 md:my-0  lg:grid-cols-3 md:gap-8">
@@ -64,10 +64,10 @@ const Team = () => {
 
        {
         model &&  <div className='w-full h-screen md:h-full fixed top-0 left-0 z-20 flex justify-center bg-[rgba(0,0,0,0.6)] items-center px-4 md:px-0 md '>
-          <div className='bg-white md:w-1/2 flex justify-between p-6'>
+          <div className='bg-white md:w-[70%] lg:w-1/2 flex justify-between p-6'>
             <div>
-              <h1 className='text-slate-900 md:text-[20px] font-semibold md:mt-[5px]'>{name}</h1>
-              <p className=' text-xs md:text-sm mt-6 text-gray-500'>{descript}</p>
+              <h1 className='text-slate-900 text-[1.5rem] font-semibold md:mt-[5px]'>{name}</h1>
+              <p className=' text-[1.1rem] mt-6 text-gray-500'>{descript}</p>
             </div>
             <div className='flex justify-end text-gray-400 font-semibold hover:text-green-400 cursor-pointer h-full  items-center' onClick={()=>setModel(!model)}>Hide</div>
           </div>

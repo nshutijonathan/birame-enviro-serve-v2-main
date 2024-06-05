@@ -5,11 +5,11 @@ import { Bounce } from 'react-awesome-reveal';
 const Resources = () => {
   const resources = useSelector((state) => state.resource);
   return (
-    <div className="bg-zinc-50 mt-[60px] md:mt-[160px]" id="resources"> 
+    <div className="bg-zinc-50  md:mt-[15rem]" id="resources"> 
        <div className='flex justify-center font-sora  font-semibold  text-gray-600 text-[30px] '>
-       <h1 className='font-sora text-gray-600 font-semibold text-[15px] md:text-[30px] text-center md:my-12'>RESOURCES</h1>
+       <h1 className='font-sora text-gray-600 font-semibold text-[15px] md:text-[30px] text-center my-[5rem]'>RESOURCES</h1>
        </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-4 md:px-[100px] my-[5px] md:my-4 md:gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-4 md:px-[100px] my-[5px] md:my-[2rem] md:gap-4">
         {resources.map((resources, index) => (
           <Bounce duration={2000}>
             <div
@@ -22,12 +22,12 @@ const Resources = () => {
               key={index}
             >
               <div className="content">
-                <div className="icon text-gray-500 "><img src={resources.image} alt=""  className='md:w-[30px] md:h-[30px]'/></div>
+                <div className="icon text-gray-500 "><img src={resources.image} alt=""  className='md:w-[30px] h-[30px]'/></div>
                 <h1
                   className={`${
                     index === 1
-                      ? 'font-sans text-white lg:text-[20px] font-semibold my-[20px]'
-                      : 'font-sans text-slate-800 lg:text-[20px] font-semibold  my-[20px]'
+                      ? 'font-sans text-white text-[1.5rem] font-semibold my-[20px]'
+                      : 'font-sans text-slate-800 text-[1.5rem]  font-semibold  my-[20px]'
                       
                   }`}
                 >
@@ -36,8 +36,8 @@ const Resources = () => {
                 <p
                   className={`${
                     index === 1
-                      ? 'text-white font-semibold text-xs md:text-sm'
-                      : 'text-gray-400 font-semibold text-xs md:text-sm'
+                      ? 'text-white font-semibold text-[1.1rem] '
+                      : 'text-gray-400 font-semibold text-[1.1rem] '
                   }`}
                 >
                   {resources.description}

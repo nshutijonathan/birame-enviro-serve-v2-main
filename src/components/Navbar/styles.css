@@ -1,4 +1,4 @@
-@media (max-width:576px){
+@media (max-width:1000px){
     .header{
         position:absolute ; 
         left:0 ;
@@ -40,7 +40,7 @@
         display:block;
     }
     #check:checked~.navbar{
-        height:18rem ;
+        height:20rem ;
     }
 
 } 

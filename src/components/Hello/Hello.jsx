@@ -47,7 +47,7 @@ const Hello = () => {
            
           </div> 
           <div className='absolute w-full h-full top-0 left-0 items-center flex justify-center z-20'>
-          <h1 className="text-center md:px-[60px] text-[30px] md:text-[40px] font-semibold text-white font-popu ">
+          <h1 className="text-center md:px-[60px] text-[30px] md:text-[4rem] font-semibold text-white font-popu ">
               Thriving Environment and Development for <br/><span>All</span>{' '}
             </h1>
           </div>

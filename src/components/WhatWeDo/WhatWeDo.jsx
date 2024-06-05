@@ -23,7 +23,7 @@ const WhatWeDo = () => {
 
   return (
     <div className="relative mt-[5rem] md:mt-[160px]" id="what">
-      <h1 className='font-sora text-gray-600 font-semibold md:text-[30px] text-center my-12'>WHAT WE DO</h1>
+      <h1 className='font-sora text-gray-600 font-semibold text-[1.5rem] text-center my-12'>WHAT WE DO</h1>
       <div className="grid  md:grid-cols-2 lg:grid-cols-3 md:px-[100px] md:gap-4">
         {why.map((singleWhat) => (
           <div
@@ -35,7 +35,7 @@ const WhatWeDo = () => {
             <img
               src={singleWhat.image}
               alt="image not found"
-              className=" h-[15rem] md:h-[17rem] w-full"
+              className=" h-[17rem] w-full"
             />
             {hoverId === singleWhat.id && (
               <div className="bg-[rgba(0,0,0,0.45)] absolute top-0 left-0 w-full h-full z-10 text-white flex justify-center items-center">
@@ -61,7 +61,7 @@ const WhatWeDo = () => {
           <div className=" md:p-[30px] p-[15px] mx-[20px] w-full md:w-1/2 bg-white">
             <div className="flex justify-between">
               <div className="md:my-[12px]">
-                <h1 className="text-slate-900 font-semibold text-[20px] md:font-semibold mt-[5px]">
+                <h1 className="text-slate-900 font-semibold text-[1rem] md:text-[1.2rem] md:font-semibold mt-[5px]">
                   {heading}
                 </h1>
                 <p className="text-md">{paragraph}</p>
@@ -74,7 +74,7 @@ const WhatWeDo = () => {
             </div>
 
             <div>
-              <p className="text-gray-400 font-semibold text-[10px] my-[6px] md:text-[13px] md:my-[12px]">
+              <p className="text-gray-400 font-semibold text-[.9rem] my-[6px] md:text-[1.1rem] md:my-[12px]">
                 {description}
               </p>
             </div>
