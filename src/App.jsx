@@ -6,21 +6,24 @@ import About from './components/About/About'
 import WhatWeDo from './components/WhatWeDo/WhatWeDo'
 import Team from './components/Team/Team'
 import Footer from './components/Footer/Footer'
+import Donate from './components/Donate/Donate'
 
 const App = () => {
   return (
     <>
+      <Hello />
 
-         <Hello/> 
-  
-         <Resources/>
-          <Projects/>
-        <About/>
-        <WhatWeDo/>
-          <Team/> 
-         <Footer/> 
-  </>
-  )
+      <Resources />
+      <Projects />
+    <About />
+      <WhatWeDo />
+      
+      <Team />
+      <Donate/>
+      <Footer />
+ 
+    </>
+  );
 }
 
 export default App
