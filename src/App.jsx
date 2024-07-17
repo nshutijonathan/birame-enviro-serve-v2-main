@@ -1,12 +1,12 @@
-import Navbar from './components/Navbar/Navbar'
-import Hello from './components/Hello/Hello'
-import Projects from './components/Projects/Projects'
-import Resources from './components/Resources/Resources'
-import About from './components/About/About'
-import WhatWeDo from './components/WhatWeDo/WhatWeDo'
-import Team from './components/Team/Team'
-import Footer from './components/Footer/Footer'
-import Donate from './components/Donate/Donate'
+import Navbar from './components/Navbar/Navbar';
+import Hello from './components/Hello/Hello';
+import Projects from './components/Projects/Projects';
+import Resources from './components/Resources/Resources';
+import About from './components/About/About';
+import WhatWeDo from './components/WhatWeDo/WhatWeDo';
+import Team from './components/Team/Team';
+import Footer from './components/Footer/Footer';
+import Donate from './components/Donate/Donate';
 
 const App = () => {
   return (
@@ -15,15 +15,14 @@ const App = () => {
 
       <Resources />
       <Projects />
-    <About />
+      <About />
       <WhatWeDo />
-      
+
       <Team />
-      <Donate/>
+      <Donate />
       <Footer />
- 
     </>
   );
-}
+};
 
-export default App
+export default App;
