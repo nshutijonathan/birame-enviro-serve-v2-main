@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { loadStripe } from '@stripe/stripe-js';
 import { CardElement, Elements, useStripe, useElements } from '@stripe/react-stripe-js';
 
-const stripePromise = loadStripe(process.env.REACT_APP_STRIPE_PUBLISHABLE_KEY);
+const stripePromise = loadStripe("pk_test_51Pc0t5J9WehNsrcpZahXTR1V2CfBrc5CLvgqjao3sXvjG74HSedn8KSr4lJgE1bdpTLxForTd1tGm1oOZBTQpggc004bAIyoj7");
 
 const DonateForm = () => {
   const [donationAmount, setDonationAmount] = useState(10);
@@ -138,7 +138,7 @@ const DonateForm = () => {
       )}
       {success && (
         <div className="mt-4 p-2 bg-green-100 border border-green-400 text-green-700 rounded">
-          Thank you, {userName}! Your payment was successful!
+          Thank you, {userName}! Your Donation was successful!
         </div>
       )}
       <div className="mt-6 space-y-4">
