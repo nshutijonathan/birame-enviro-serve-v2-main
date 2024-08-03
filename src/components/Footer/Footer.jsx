@@ -10,7 +10,7 @@ import { MdOutlineEmail } from 'react-icons/md';
 
 const Footer = () => {
   return (
-    <div className="bg-teal-700 w-screen mt-40 md:mt-[220px] p-4 px-[100px] grid grid-cols-1 lg:grid-cols-3 pl-20 pr-20  py-30 ">
+    <div className="bg-teal-700 w-screen mt-[35rem] md:mt-[220px] p-4 px-[100px] grid grid-cols-1 lg:grid-cols-3 pl-20 pr-20  py-30 ">
       {/* the links */}
       <ul className="text-white text-xl">
         <Link to="home" smooth={true} duration={1000}>
