@@ -1,16 +1,15 @@
-import Navbar from './components/Navbar/Navbar';
+import { PayPalScriptProvider } from '@paypal/react-paypal-js';
+import About from './components/About/About';
+import Donate from './components/Donate/Donate';
+import Footer from './components/Footer/Footer';
 import Hello from './components/Hello/Hello';
 import Projects from './components/Projects/Projects';
 import Resources from './components/Resources/Resources';
-import About from './components/About/About';
-import WhatWeDo from './components/WhatWeDo/WhatWeDo';
 import Team from './components/Team/Team';
-import Footer from './components/Footer/Footer';
-import Donate from './components/Donate/Donate';
-import { PayPalScriptProvider } from '@paypal/react-paypal-js';
+import WhatWeDo from './components/WhatWeDo/WhatWeDo';
 const App = () => {
   const initialOptions = {
-    'client-id':'AaTO2zcGFgoftYOmREXVsas5chQji80E3Bs5J2F0fCm5dau-xw17Kv5ZyBxOTV2UPOsHVTiVj2u7h0QY',
+    'client-id':'AZvdle3o3OD7QtoG7cGhoeNqT8Ht4_Nl9FgA-pdutQkBpU-FQ9l6BW9FBaqYx4k2cmg4nsdR9gQzF-pl',
     currency: 'USD',
     intent: 'capture',
   };
