@@ -1,4 +1,4 @@
-import { createSlice , nanoid} from '@reduxjs/toolkit';
+import { createSlice, nanoid } from '@reduxjs/toolkit';
 
 export const initialState = [
   { 
@@ -10,7 +10,7 @@ export const initialState = [
   },
   { 
     id:nanoid(),
-    image: '../Team/Eric-Kayiranga.jpg',
+    image: '../Team/Eric-Kayirangwa2.jpg',
     name: 'Kayiranga Eric',
     title: 'Executive Director',
     details:

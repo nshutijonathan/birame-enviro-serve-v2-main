@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import './styles.css';
-import { BiMenu, BiMenuAltLeft } from 'react-icons/bi';
+import { BiMenu } from 'react-icons/bi';
 import { CgClose } from 'react-icons/cg';
-import { Link } from 'react-scroll';
 import { NavLink } from 'react-router-dom';
+import { Link } from 'react-scroll';
+import './styles.css';
 
 const Navbar = () => {
   const [scroll, setScroll] = useState(false);
@@ -79,7 +79,7 @@ const Navbar = () => {
           <a className="font-semibold text-md  md:cursor-pointer ">
             {' '}
             <NavLink to="/team" className="cursor-pointer md:text-[1.3rem]">
-              TEAM
+            WHO WE ARE
             </NavLink>{' '}
           </a>
         </Link>
