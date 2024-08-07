@@ -80,7 +80,7 @@ const Navbar = () => {
     { to: '/whatWeDo', text: 'WHAT WE DO', section: 'whatWeDo' },
     { to: '/projects', text: 'PROJECTS', section: 'projects' },
     { to: '/team', text: 'WHO WE ARE', section: 'team' },
-    { to: '/resource', text: 'RESOURCES', section: 'resource' },
+    { to: '/resource', text: 'RESOURCE', section: 'resource' },
     { to: '/donate', text: 'DONATE', section: 'donate' },
   ];
 
