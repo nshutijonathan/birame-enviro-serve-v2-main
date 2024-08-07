@@ -2,12 +2,12 @@ import React from 'react';
 import { useSelector } from 'react-redux';
 import './styles.css';
 import { Bounce } from 'react-awesome-reveal';
-const Resources = () => {
+const WhatWeDo = () => {
   const resources = useSelector((state) => state.resource);
   return (
-    <div className="bg-zinc-50  md:mt-[15rem]" id="resources"> 
+    <div className="bg-zinc-50  md:mt-[15rem]" id="whatWeDo"> 
        <div className='flex justify-center font-sora  font-semibold  text-gray-600 text-[30px] '>
-       <h1 className='font-sora text-gray-600 font-semibold text-[15px] md:text-[30px] text-center my-[5rem]'>RESOURCES</h1>
+       <h1 className='font-sora text-gray-600 font-semibold text-[15px] md:text-[30px] text-center my-[5rem]'>WHAT WE DO</h1>
        </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-4 md:px-[100px] my-[5px] md:my-[2rem] md:gap-4">
         {resources.map((resources, index) => (
@@ -51,4 +51,4 @@ const Resources = () => {
   );
 };
 
-export default Resources;
+export default WhatWeDo;

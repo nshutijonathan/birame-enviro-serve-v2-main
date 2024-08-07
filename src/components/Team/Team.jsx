@@ -20,7 +20,7 @@ const Team = () => {
 
   return (
     <div className="flex flex-col justify-center w-full  md:mt-[160px]" id="team"> 
-     <h1 className='font-sora text-gray-600 font-semibold text-[1.5rem] text-center my-12'>TEAM</h1>
+     <h1 className='font-sora text-gray-600 font-semibold text-[1.5rem] text-center my-12'>WHO WE ARE</h1>
       <div className=":w-full relative  ">
         <div className=" w-full  md:px-[100px] lg:px-[90px] flex justify-center mt-6">
           <div className="grid  md:grid-cols-2  my-4 md:my-0  lg:grid-cols-3 md:gap-8">
