@@ -41,38 +41,7 @@ const Projects = () => {
 
        {/* end of grids */}
        {/* videos explaining more */}
-      <div className='flex md:w-full md:justify-center mt-[50px] md:mt-[100px]'>
-      <div className='grid grid-cols-1  w-full h-[30rem] md:grid-cols-2 md:h-[18rem] lg:h-[25rem] md:w-[80%] lg:w-[60%] md:gap-12 "'>
-      <div className=' my-6 md:my-0'>
-      <iframe
-              // width="560"
-           
-              className="h-full w-full object-cover"
-              src="https://www.youtube.com/embed/BNlJS-F-Oio?si=HvMkF6Iy19Sj98Hp&amp;start=1673"
-              title="CoEB WEEKLY SEMINAR SERIES on Developing a bird-naming protocol for the long-term conservation ."
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowFullScreen
-            ></iframe>
-      </div>
-            <div>
-            <iframe
-              // width="560"
-           
-              className="h-full w-full object-cover"
-       
-              src="https://www.youtube.com/embed/OFKQ9DMXO_E"
-              title="CoEB WEEKLY SEMINAR SERIES on Developing a bird-naming protocol for the long-term conservation ."
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowFullScreen
-            ></iframe>
-            </div>
-
-       </div>
-      </div>
-
-
+     
       
   
     </div>
