@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
 import { PayPalButtons, usePayPalScriptReducer } from '@paypal/react-paypal-js';
+import React, { useEffect, useState } from 'react';
 
 const DonateForm = () => {
   const [donationAmount, setDonationAmount] = useState(10);

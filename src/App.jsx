@@ -11,7 +11,7 @@ import WhatWeDo from './components/Resources/Resources';
 const App = () => {
   const initialOptions = {
     'client-id':
-      'AZmhCArmt7HzLV0vq1kx5wMdw8zfxK4Koh90f0FPEmnFH3vcj8xGWu7Fg_cTU4XFFkq3K2zqupbS6WtN',
+      'AVP2A-WbzIypgnQ2AoeaW_n5hM7sZNyPkVJw0a5-PBDdVUD00WbhnJ2iVaY0VDOiq9o4v_QC2mwdXvi0',
     currency: 'USD',
     intent: 'capture',
   };
