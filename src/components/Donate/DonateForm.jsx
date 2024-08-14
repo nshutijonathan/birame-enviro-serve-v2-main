@@ -8,6 +8,7 @@ const DonateForm = () => {
   const [{ isPending }] = usePayPalScriptReducer();
   const [error, setError] = useState(null);
   const [success, setSuccess] = useState(false);
+  console.log("donationAmount,",donationAmount,typeof donationAmount)
 
   useEffect(() => {
     const colors = [

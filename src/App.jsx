@@ -10,8 +10,8 @@ import Resource from './components/Resource/Resource';
 import WhatWeDo from './components/Resources/Resources';
 const App = () => {
   const initialOptions = {
-    'client-id':
-      'AVP2A-WbzIypgnQ2AoeaW_n5hM7sZNyPkVJw0a5-PBDdVUD00WbhnJ2iVaY0VDOiq9o4v_QC2mwdXvi0',
+    clientId:
+      'ASv2LIj_UOt09y64vOdz6Qd_3GHh1yzF3Vyk_ynDmZE3TRmbPA_lqCzk4gr69DNKB1dJ7SjsSm974mzu',
     currency: 'USD',
     intent: 'capture',
   };
