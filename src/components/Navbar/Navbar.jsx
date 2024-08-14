@@ -95,7 +95,7 @@ const Navbar = () => {
         handleNavLinkClick('/', 'home');
       }}>
         <img
-          src="../bl.png"
+          src="../bl-1.png"
           alt="logo image"
           className="w-15 h-5 md:w-20 md:h-12"
         />
@@ -119,7 +119,7 @@ const Navbar = () => {
       </label>
       <nav className={`navbar lg:flex lg:mt-2 md:gap-[2rem] ${isNavbarOpen ? 'open' : ''}`}>
         {navItems.filter(item => !item.hidden).map((item) => (
-          <Link key={item.to} to={item.section} smooth={true} duration={2000}>
+          <Link key={item.to} to={item.section} smooth={true} duration={2} offset={-100} >
             <NavLink 
               to={item.to} 
               style={navLinkStyle(item.to)}

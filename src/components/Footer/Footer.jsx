@@ -1,11 +1,9 @@
 import React from 'react';
-import { Link } from 'react-scroll';
-import { FaTwitter } from 'react-icons/fa';
-import { FaFacebookF } from 'react-icons/fa';
-import { IoLogoInstagram } from 'react-icons/io5';
 import { CiLocationOn } from 'react-icons/ci';
-import { IoCall } from 'react-icons/io5';
+import { FaFacebookF, FaTwitter } from 'react-icons/fa';
+import { IoCall, IoLogoInstagram } from 'react-icons/io5';
 import { MdOutlineEmail } from 'react-icons/md';
+import { Link } from 'react-scroll';
 
 
 const Footer = () => {
@@ -37,7 +35,7 @@ const Footer = () => {
           <a href="https://www.instagram.com/inyoni_zacu/" target="blank">
             <IoLogoInstagram className="text-white   text-2xl my-10 md:my-3 hover:text-gray-500" />
           </a>
-          <a href="mailto:rurangwalaura8@gmail.com">
+          <a href="mailto:birameteda@gmail.com">
             <MdOutlineEmail className="text-white   text-2xl my-10 md:my-3 hover:text-gray-500" />
           </a>
         </div>
