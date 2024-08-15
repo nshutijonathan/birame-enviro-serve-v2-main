@@ -32,25 +32,22 @@ const Resource = () => {
             ></iframe>
           </div>
           <div className="relative">
-  <a
-    href="https://www.africanbirdclub.org/wp-content/uploads/2023/04/Final_Report_ABC_Rurangwa.pdf"
-    target="_blank"
-    rel="noopener noreferrer"
-    title="Birame report"
-    className="absolute inset-0 z-10" 
-  >
-    
-  </a>
-  <iframe
-    className="h-full w-full object-cover"
-    src="https://www.africanbirdclub.org/wp-content/uploads/2023/04/Final_Report_ABC_Rurangwa.pdf"
-    title="Birame report"
-    frameBorder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowFullScreen
-  ></iframe>
-</div>
-
+            <a
+              href="https://www.africanbirdclub.org/wp-content/uploads/2023/04/Final_Report_ABC_Rurangwa.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Birame report"
+              className="absolute inset-0 z-10"
+            ></a>
+            <iframe
+              className="h-full w-full object-cover"
+              src="https://www.africanbirdclub.org/wp-content/uploads/2023/04/Final_Report_ABC_Rurangwa.pdf"
+              title="Birame report"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+            ></iframe>
+          </div>
         </div>
       </div>
     </div>
