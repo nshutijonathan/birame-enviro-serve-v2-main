@@ -14,7 +14,7 @@ const App = () => {
       'ASv2LIj_UOt09y64vOdz6Qd_3GHh1yzF3Vyk_ynDmZE3TRmbPA_lqCzk4gr69DNKB1dJ7SjsSm974mzu',
     currency: 'USD',
     intent: 'capture',
-    "data-client-token": "EJt6---GA6GWAGuJCKSWKX1LMvb-wOUHKBBE8ZjdI3WaSGhoY7vBTvtbkb2w6A-UtDB6kBE49zvdLIpu"
+ 
   };
   return (
     <>
