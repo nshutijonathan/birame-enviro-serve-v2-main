@@ -10,7 +10,7 @@ import Resource from './components/Resource/Resource';
 import WhatWeDo from './components/Resources/Resources';
 const App = () => {
   const initialOptions = {
-    "client-id":
+    clientId:
       'ASv2LIj_UOt09y64vOdz6Qd_3GHh1yzF3Vyk_ynDmZE3TRmbPA_lqCzk4gr69DNKB1dJ7SjsSm974mzu',
     currency: 'USD',
     intent: 'capture',
