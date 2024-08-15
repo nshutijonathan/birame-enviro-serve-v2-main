@@ -119,7 +119,7 @@ const DonateForm = () => {
       )}
       {success && (
         <div className="mt-4 p-2 bg-green-100 border border-green-400 text-green-700 rounded">
-          Thank you, {userName}! Your Donation was successful!
+          Thank you, {userName}! Your Donation was successful!!
         </div>
       )}
       <div className="mt-6 space-y-4">
