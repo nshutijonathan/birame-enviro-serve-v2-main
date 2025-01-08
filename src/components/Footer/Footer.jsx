@@ -1,0 +1,70 @@
+import React from 'react';
+import { CiLocationOn } from 'react-icons/ci';
+import { FaFacebookF, FaTwitter } from 'react-icons/fa';
+import { IoCall, IoLogoInstagram } from 'react-icons/io5';
+import { MdEmail, MdOutlineEmail } from 'react-icons/md';
+import { Link } from 'react-scroll';
+
+
+const Footer = () => {
+  return (
+    <div className="bg-teal-700 w-screen mt-[35rem] md:mt-[220px] p-4 px-[100px] grid grid-cols-1 lg:grid-cols-3 pl-20 pr-20 xl:pl-[8rem] xl:pr-[8rem] py-30 ">
+      {/* the links */}
+      <ul className="text-white text-xl ">
+        <Link to="home" smooth={true} duration={1000}>
+          <li className="my-3 cursor-pointer">Home</li>
+        </Link>
+        <Link to="projects" smooth={true} duration={1000}>
+          <li className="my-3 cursor-pointer">Projects</li>
+        </Link>
+        <Link to="about" smooth={true} duration={1000}>
+          <li className="my-3 cursor-pointer">About us</li>
+        </Link>
+      </ul>
+
+      {/* the links */}
+
+      {/* contact us */}
+      <div className=''>
+        <div className="mt-5">
+          <a href="https://twitter.com/BirameSociety" target="blank">
+            <FaTwitter className="text-white   text-2xl my-10 md:my-3 hover:text-gray-500" />
+          </a>
+
+          <FaFacebookF className="text-white   text-2xl my-10 md:my-3 hover:text-gray-500" />
+          <a href="https://www.instagram.com/inyoni_zacu/" target="blank">
+            <IoLogoInstagram className="text-white   text-2xl my-10 md:my-3 hover:text-gray-500" />
+          </a>
+          <a href="mailto:birameteda@gmail.com">
+            <MdOutlineEmail className="text-white   text-2xl my-10 md:my-3 hover:text-gray-500" />
+          </a>
+        </div>
+      </div>
+
+      <div className=''>
+        <div className="flex gap-1 items-center my-5 md:my-3">
+          <CiLocationOn className="text-white md:text-xl " />
+          <span className="text-white items-center font-serif ">
+            KG11 Ave, Gasabo district, Kigali, Rwanda
+          </span>
+        </div>
+        <div className="flex gap-1 items-center my-5  md:my-3">
+          <CiLocationOn className="text-white md:text-xl" />
+          <span className="text-white font-serif">
+            PoBox: 4376, Kigali, Rwanda
+          </span>
+        </div>
+        <div className="flex gap-1 items-center my-5  md:my-3">
+          <IoCall className="text-white md:text-xl" />
+          <span className="text-white font-thin md:text-xl">+250788738461</span>
+        </div> 
+        <div className="flex gap-1 items-center my-5  md:my-3">
+          <MdEmail className="text-white md:text-xl" />
+          <span className="text-white font-thin md:text-xl">director@biramedev.org</span>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Footer;
