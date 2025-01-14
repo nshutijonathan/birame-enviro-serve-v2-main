@@ -43,7 +43,7 @@ const Hello = () => {
               />
             </SwiperSlide>
           </Swiper>
-          <div className="w-full h-full bg-slate-400 opacity-30 absolute top-0 left-0 z-10 flex justify-center items-center">
+          <div className="w-full h-full opacity-30 absolute top-0 left-0 z-10 flex justify-center items-center">
            
           </div> 
           <div className='absolute w-full h-full top-0 left-0 items-center flex justify-center z-20'>

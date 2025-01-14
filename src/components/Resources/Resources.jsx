@@ -5,7 +5,7 @@ import { Bounce } from 'react-awesome-reveal';
 const WhatWeDo = () => {
   const resources = useSelector((state) => state.resource);
   return (
-    <div className="bg-zinc-50  md:mt-[15rem]" id="whatWeDo"> 
+    <div className="bg-zinc-50  md:my-[15rem] md:py-4" id="whatWeDo"> 
        <div className='flex justify-center font-sora  font-semibold  text-gray-600 text-[30px] '>
        <h1 className='font-sora text-gray-600 font-semibold text-[15px] md:text-[30px] text-center my-[5rem]'>WHAT WE DO</h1>
        </div>

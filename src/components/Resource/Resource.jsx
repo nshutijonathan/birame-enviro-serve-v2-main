@@ -10,7 +10,7 @@ const Resource = () => {
         className="flex md:w-full md:justify-center mt-[50px] md:mt-[100px]"
         id="resource"
       >
-        <div className="grid grid-cols-1 md:grid-cols-3 w-full md:w-[90%] lg:w-[85%] h-[30rem] md:h-[18rem] lg:h-[25rem] md:gap-6 lg:gap-8">
+        <div className="grid grid-cols-1 my-[4rem] md:my-0 md:grid-cols-3 w-full md:w-[90%] lg:w-[85%] h-[80rem] md:h-[18rem] lg:h-[25rem] md:gap-6 lg:gap-8">
           <div className="my-6 md:my-0">
             <iframe
               className="h-full w-full object-cover"
@@ -31,7 +31,7 @@ const Resource = () => {
               allowFullScreen
             ></iframe>
           </div>
-          <div className="relative">
+          <div className="relative mt-[4rem] md:my-0">
             <a
               href="https://www.africanbirdclub.org/wp-content/uploads/2023/04/Final_Report_ABC_Rurangwa.pdf"
               target="_blank"

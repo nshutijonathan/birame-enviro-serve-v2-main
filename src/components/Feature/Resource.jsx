@@ -1,5 +1,5 @@
 import { createSlice  ,nanoid } from "@reduxjs/toolkit";
-
+import { GiHummingbird } from "react-icons/gi";
 
 export const initialState = [
     {
@@ -14,7 +14,7 @@ export const initialState = [
         icon:"Lorem" ,
         heading:"Research on the response of wildlife to environmental changes" , 
         description :"We assess the efficiency of restoration programs after management interventions, such as the removal of invasive species." ,
-        image:"../resource/trees.svg"
+        image:"../resource/bird.svg"
     },
     {
         id:nanoid() , 
@@ -26,16 +26,23 @@ export const initialState = [
     {
         id:nanoid() , 
         icon:"Lorem" ,
-        heading:"Conservation education through story-telling and Arts" , 
-        description :"We provide professional training on eco-tourism and best conservation practices to various stakeholders, including tour guides associations, Universities and Primary schools." ,
+        heading:"Environment education and training" , 
+        description:"We provide professional training on eco-tourism and best conservation practices to various stakeholders, including tour guides associations, Universities and Primary schools." ,
         image:"../resource/education.svg"
     },
     {
         id:nanoid() , 
         icon:"Lorem" ,
-        heading:"Community livelihoods improvement" , 
+        heading:"Youth empowerment" , 
         description :"We pay school fees and offer mentorship programs to socio-economically disadvantaged children with priority given to disabled children and girls" ,
-        image:"../resource/community.svg"
+        image:"../resource/empower.svg"
+    },
+    {
+        id:nanoid() , 
+        icon:"Lorem" ,
+        heading:"Conservational Policy and Planning" , 
+        description :"We contribute to policy dialogues and national strategic planning activities to advocate for species and sites in need of conservation prioritization" ,
+        image:"../resource/trees.svg"
     },
 ]
 

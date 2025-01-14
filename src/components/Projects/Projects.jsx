@@ -10,11 +10,11 @@ const Projects = () => {
         <h1 className="font-sora text-gray-600 font-semibold text-[1.5rem] text-center">
           OUR PROJECTS
         </h1>
-        <p className="font-popu text-center  text-[1.1rem] md:text-md text-zinc-500  my-[20px]">
+        {/* <p className="font-popu text-center  text-[1.1rem] md:text-md text-zinc-500  my-[20px]">
           Biodiversity within natural and human-altered landscapes in rural and
           urban <br /> areas is well conserved and derived ecosystem services
           are flourishing
-        </p>
+        </p> */}
       </div>
       {/* grids */}
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:px-[100px]  md:gap-4'>

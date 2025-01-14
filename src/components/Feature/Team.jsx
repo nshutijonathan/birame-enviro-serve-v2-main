@@ -30,7 +30,7 @@ export const initialState = [
     id: nanoid(),
     image: "../Team/Protais.jpg",
     name: "Niyigaba Protais",
-    title: "Reaserch and Restoration Advisor",
+    title: "Research and Restoration advisor",
     details:
       "Protais is skilled and experienced in nature interpretation, protected areas management, biodiversity monitoring methods, and Environmental and Social Impact Assessment Studies. He holds a Master’s Degree in Biodiversity Conservation from the University of Rwanda. Protais is the current Park Manager of Nyungwe National Park, and has previously worked as the Biodiversity Monitoring Officer at Wildlife Conservation Society – Nyungwe Conservation Project. He is currently an active member of the Rwanda Association of Professional Environmental Practitioners (RAPEP) and a co-trainer for the development of local bird guides in the Kivu Belt Tourism Destination Management Unit. Protais is a passionate birder and eco-tourism enthusiast.",
   },
@@ -40,7 +40,7 @@ export const initialState = [
     name: "Valentine Dushimiyimana",
     title: "ONE Health Coordination",
     details:
-      " I have more than 10 years of experience in the health sector and more than 5 years in research ,I am currently undertaking a Ph.D. in Health Sciences at Ghent University and Cape Town University. Prior to my Ph.D., I have been working at Rwanda Biomedical Centre, Research Innovation and Data Sciences Division as Ag. Strategic Information Specialist, and occasionally as the grant administrator.",
+      "Valentine has more than 10 years of experience in the health sector and more than 5 years in research, and she is currently undertaking a Ph.D. in Health Sciences at Ghent University and Cape Town University. Prior to her Ph.D., she was working at Rwanda Biomedical Centre, Research Innovation and Data Sciences Division as Ag. Strategic Information Specialist, and occasionally as the grant administrator.",
   },
   {
     id: nanoid(),
