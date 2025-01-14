@@ -9,27 +9,24 @@ import Team from './components/Team/Team';
 import Resource from './components/Resource/Resource';
 import WhatWeDo from './components/Resources/Resources';
 const App = () => {
+  const envVariable = import.meta.env.VITE_API_URL;
   const initialOptions = {
-    clientId:
-      'ASv2LIj_UOt09y64vOdz6Qd_3GHh1yzF3Vyk_ynDmZE3TRmbPA_lqCzk4gr69DNKB1dJ7SjsSm974mzu',
-    currency: 'USD',
+    clientId: envVariable,
+    currency:'USD',
     intent: 'capture',
- 
   };
   return (
     <>
-      <PayPalScriptProvider options={initialOptions}>
+      {/* <PayPalScriptProvider options={initialOptions}> */}
         <Hello />
         <About />
-
         <WhatWeDo />
         <Projects />
         <Team />
         <Resource />
-
         <Donate />
         <Footer />
-      </PayPalScriptProvider>
+      {/* </PayPalScriptProvider> */}
     </>
   );
 };

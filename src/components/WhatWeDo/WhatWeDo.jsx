@@ -22,7 +22,7 @@ const WhatWeDo = () => {
   };
 
   return (
-    <div className="relative mt-[5rem] md:mt-[160px]" id="what">
+    <div className="relative mt-[5rem] md:mt-[10px]" id="what">
       <h1 className='font-sora text-gray-600 font-semibold text-[1.5rem] text-center my-12'>WHAT WE DO</h1>
       <div className="grid  md:grid-cols-2 lg:grid-cols-3 md:px-[100px] md:gap-4">
         {why.map((singleWhat) => (

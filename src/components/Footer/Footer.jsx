@@ -2,15 +2,15 @@ import React from 'react';
 import { CiLocationOn } from 'react-icons/ci';
 import { FaFacebookF, FaTwitter } from 'react-icons/fa';
 import { IoCall, IoLogoInstagram } from 'react-icons/io5';
-import { MdOutlineEmail } from 'react-icons/md';
+import { MdEmail, MdOutlineEmail } from 'react-icons/md';
 import { Link } from 'react-scroll';
 
 
 const Footer = () => {
   return (
-    <div className="bg-teal-700 w-screen mt-[35rem] md:mt-[220px] p-4 px-[100px] grid grid-cols-1 lg:grid-cols-3 pl-20 pr-20  py-30 ">
+    <div className="bg-teal-700 w-screen mt-[35rem] md:mt-[220px] p-4 px-[100px] grid grid-cols-1 lg:grid-cols-3 pl-20 pr-20 xl:pl-[8rem] xl:pr-[8rem] py-30 ">
       {/* the links */}
-      <ul className="text-white text-xl">
+      <ul className="text-white text-xl ">
         <Link to="home" smooth={true} duration={1000}>
           <li className="my-3 cursor-pointer">Home</li>
         </Link>
@@ -25,7 +25,7 @@ const Footer = () => {
       {/* the links */}
 
       {/* contact us */}
-      <div>
+      <div className=''>
         <div className="mt-5">
           <a href="https://twitter.com/BirameSociety" target="blank">
             <FaTwitter className="text-white   text-2xl my-10 md:my-3 hover:text-gray-500" />
@@ -41,7 +41,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div>
+      <div className=''>
         <div className="flex gap-1 items-center my-5 md:my-3">
           <CiLocationOn className="text-white md:text-xl " />
           <span className="text-white items-center font-serif ">
@@ -57,6 +57,10 @@ const Footer = () => {
         <div className="flex gap-1 items-center my-5  md:my-3">
           <IoCall className="text-white md:text-xl" />
           <span className="text-white font-thin md:text-xl">+250788738461</span>
+        </div> 
+        <div className="flex gap-1 items-center my-5  md:my-3">
+          <MdEmail className="text-white md:text-xl" />
+          <span className="text-white font-thin md:text-xl">director@biramedev.org</span>
         </div>
       </div>
     </div>
