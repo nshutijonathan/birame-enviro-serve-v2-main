@@ -27,7 +27,7 @@ export const initialState = [
         },
         {
             id:nanoid(),
-            image:"../ProjectsFiles/mashyoza1.jpeg" ,
+            image:"../ProjectsFiles/Farmers.jpg" ,
             heading:"Farmers first" ,
             description :"Using a ONE health approach, we collaborate with farmers in Ngoma district to promote environmentally-friendly agricultural practices, such as food forests in order to ensure food security, public and environmental health." 
             },

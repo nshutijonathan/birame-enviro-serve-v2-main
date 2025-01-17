@@ -7,6 +7,7 @@ import './styles.css';
 
 const Navbar = () => {
   const [scroll, setScroll] = useState(false);
+  const [test , setTest] = useState(false)
   const [activeSection, setActiveSection] = useState('home');
   const [isNavbarOpen, setIsNavbarOpen] = useState(false);
   const location = useLocation();
@@ -134,4 +135,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Navbar; 
